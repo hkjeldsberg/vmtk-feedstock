@@ -40,7 +40,7 @@ requirements:
     - vtk {{ vtk_version }}
     - libitk {{ itk_version }}
     - libitk-devel {{ itk_version }}
-    - tbb-devel
+    - tbb-devel >=2021.3.0
     - xorg-libxfixes  # [linux]
     - llvm
     - setuptools  # [win]
