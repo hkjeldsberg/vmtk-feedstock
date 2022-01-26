@@ -64,6 +64,10 @@ test:
     - test.bat
   imports:
     - vmtk
+    - vmtk.vtkvmtk
+    - vmtk.vmtkscripts
+    - vmtk.pypes
+    
   requires:
     - pytest
     - git
