@@ -16,7 +16,7 @@ source:
 build:
   number: 2
   skip:
-    - True  # [py<=36 or (osx and py>39]
+    - True  # [py<=36 or (osx and py>39)]
 
 requirements:
   build:
