@@ -12,9 +12,9 @@ source:
   sha256: 1b2236981565c24c59807814c5315b4a0406dc15cb93625ad212a23cc52a2d3f
 
 build:
-  number: 1
+  number: 2
   skip:
-    - True  # [py<=36 or osx]
+    - True  # [py<=36 or win or linux]
 
 requirements:
   build:
@@ -64,7 +64,7 @@ test:
     - pytest
     - git
   commands:
-    - bash test.sh  # [linux]
+    - bash test.sh  # [not win]
     - test.bat  # [win]
 
 
