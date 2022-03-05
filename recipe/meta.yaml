@@ -14,7 +14,7 @@ source:
     - 0001-OSX_CXX_Compatibility.patch
 
 build:
-  number: 2
+  number: 0
   skip:
     - True  # [py<=36 or (osx and py>39)]
 
